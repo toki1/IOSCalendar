@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Eventt" representedClassName="Eventt" syncable="YES" codeGenerationType="class">
+        <attribute name="descriptionn" optional="YES" attributeType="String"/>
+        <attribute name="done" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="due" optional="YES" attributeType="String"/>
+        <attribute name="importance" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="splitable" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="timeRequired" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES" codeGenerationType="class">
+        <attribute name="autoSchedule" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="darkMode" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="notification" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Eventt" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="Settings" positionX="-54" positionY="45" width="128" height="88"/>
+    </elements>
+</model>
